@@ -11,7 +11,7 @@ All the flags need to be provided:
   c : compress
   d: decompress
 -d <dictionary_file> (standard .txt extension)
-# FOR EXAMPLE:
+## For example:
 ./huffman -i text.txt -o compressed.huff -m c -d dictionary.txt (for compression)
 
 ./huffman -i compressed.huff -o decompressed.txt -m d -d dictionary.txt (for decompression)
