@@ -4,13 +4,13 @@ C++ application that compresses and decompresses text files and generates .huff 
 ## Usage:
 this is a command line application run ./huffman
 when started with no parameters, instruction will appear.
-All the flags need to be provided:
--i <input_file>
--o <output_file> (with .huff extension)
--m <mode> 
-  c : compress
-  d: decompress
--d <dictionary_file> (standard .txt extension)
+All the flags need to be provided: <br>
+-i <input_file> <br>
+-o <output_file> (with .huff extension) <br>
+-m <mode> <br>
+  c : compress <br>
+  d: decompress <br>
+-d <dictionary_file> (standard .txt extension) <br>
 ## For example:
 ./huffman -i text.txt -o compressed.huff -m c -d dictionary.txt (for compression)
 
