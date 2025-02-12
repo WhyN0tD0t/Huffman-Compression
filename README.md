@@ -34,5 +34,6 @@ To decompress the file the same binary codes are needed, therefore during the co
 It contains the frequencies of all characters used in file.
 When decompressing, the new binary tree is created using the dictionary text file. <br>
 When all this is done the bit extraction of compressed file begins. <br> 
-In that moment every character is recreated and then rewritten to the new file "output-file" <br>
+In that moment every character is recreated and then rewritten to the new file "output-file" <br> <br>
+
 
